@@ -33,7 +33,7 @@
       }
     },
     methods: {
-      //  提交按钮事件。
+      //  提交按钮事件。.
       submitForm (formName) {
         this.$refs[formName].validate((valid) => {
           if (valid) {
