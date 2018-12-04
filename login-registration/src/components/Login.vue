@@ -25,7 +25,7 @@
   export default {
     data () {
       return {
-        url: 'http://9.112.80.201:9999/api/v1/user/login',
+        url: 'http://47.94.137.71:9999/api/v1/user/login',
         ruleForm: {
           name: '',
           pass: ''
