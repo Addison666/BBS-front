@@ -6,6 +6,7 @@ import Axios from 'axios'
 import Login from '@/components/Login'
 import Registration from '@/components/Registration'
 import Success from '@/components/Success'
+import News from '@/components/News'
 
 Vue.use(Router)
 Vue.use(ElementUI)
@@ -27,6 +28,11 @@ export default new Router({
       path: '/success',
       name: 'Success',
       component: Success
+    },
+    {
+      path: '/news',
+      name: 'News',
+      component: News
     }
   ]
 })

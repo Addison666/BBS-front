@@ -81,6 +81,9 @@
         }
       }
     },
+    mounted () {
+      console.log(666666)
+    },
     methods: {
       //  提交按钮事件
       submitForm (formName) {
