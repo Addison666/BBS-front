@@ -25,7 +25,7 @@
   export default {
     data () {
       let validateAccount = (rule, value, callback) => {
-        this.$ajax.post('http://47.94.137.71:9999/api/v1/user/checkUser', this.ruleForm)
+        this.$ajax.post('http://localhost:9999/api/v1/user/checkUser', this.ruleForm)
           .then((response) => {
             // console.log(response.data.num)
             if (response.data.code === 400) {
@@ -60,7 +60,7 @@
         }
       }
       return {
-        url: 'http://47.94.137.71:9999/api/v1/user/registration',
+        url: 'http://localhost:9999/api/v1/user/registration',
         ruleForm: {
           name: '',
           pass: '',
